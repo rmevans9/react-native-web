@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. Rewrite react-native paths for react-native-web 1`] = `
+"
+import { StyleSheet } from 'react-native';
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import StyleSheet from 'react-native-web/dist/apis/StyleSheet';
+"
+`;
+
+exports[`2. Rewrite react-native paths for react-native-web 1`] = `
+"
+import { Animated, Platform, StyleSheet as MyStyleSheet } from 'react-native';
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import Animated from 'react-native-web/dist/apis/Animated';
+import Platform from 'react-native-web/dist/apis/Platform';
+import MyStyleSheet from 'react-native-web/dist/apis/StyleSheet';
+"
+`;
+
+exports[`3. Rewrite react-native paths for react-native-web 1`] = `
+"
+import { View } from 'react-native';
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import View from 'react-native-web/dist/components/View';
+"
+`;
+
+exports[`4. Rewrite react-native paths for react-native-web 1`] = `
+"
+import { Switch, Text, View as MyView } from 'react-native';
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import Switch from 'react-native-web/dist/components/Switch';
+import Text from 'react-native-web/dist/components/Text';
+import MyView from 'react-native-web/dist/components/View';
+"
+`;
+
+exports[`5. Rewrite react-native paths for react-native-web 1`] = `
+"
+import { Touchable, TouchableHighlight } from 'react-native';
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import Touchable from 'react-native-web/dist/components/Touchable/Touchable';
+import TouchableHighlight from 'react-native-web/dist/components/Touchable/TouchableHighlight';
+"
+`;
+
+exports[`6. Rewrite react-native paths for react-native-web 1`] = `
+"
+import { createDOMElement, render } from 'react-native';
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import createDOMElement from 'react-native-web/dist/modules/createDOMElement';
+import render from 'react-native-web/dist/modules/render';
+"
+`;
+
+exports[`7. Rewrite react-native paths for react-native-web 1`] = `
+"
+import { ColorPropType, ViewPropTypes } from 'react-native';
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import ColorPropType from 'react-native-web/dist/propTypes/ColorPropType';
+import ViewPropTypes from 'react-native-web/dist/propTypes/ViewPropTypes';
+"
+`;
+
+exports[`8. Rewrite react-native paths for react-native-web 1`] = `
+"
+import { InvalidThing, View } from 'react-native';
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import { InvalidThing } from 'react-native-web';
+import View from 'react-native-web/dist/components/View';
+"
+`;
+
+exports[`9. Rewrite react-native paths for react-native-web 1`] = `
+"
+import * as RNW from 'react-native';
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import * as RNW from 'react-native-web';
+"
+`;
